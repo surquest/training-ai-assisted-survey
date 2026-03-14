@@ -221,6 +221,21 @@ strong {
   fill: var(--white-smoke);
 }
 
+/* Limit slide images to a reasonable height and center them */
+.reveal section img:not(.reveal-logo),
+.reveal section p img,
+.reveal section figure,
+.reveal section figure img {
+  max-height: 400px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0.8em auto;
+}
+
 /* Fragments */
 .reveal .fragment.blur {
   filter: blur(5px);

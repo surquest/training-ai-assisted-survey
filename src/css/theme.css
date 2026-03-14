@@ -1,0 +1,175 @@
+﻿/* custom-brand.css */
+
+@font-face {
+  font-family: 'Objective';
+  src: url('../fonts/Objective-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('../fonts/Objective-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Objective';
+  src: url('../fonts/Objective-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --licorice: #2E3544;
+  --tropical-blue: #B3C9F2;
+  --white-smoke: #F2F2F2;
+  --cerise: #F22574;
+  --medium-spring-green: #13EAB7;
+  --dark-tangerine: #F7A520;
+  --light-pink: #FFA9D4;
+  --light-yellow: #FFEC90;
+  --light-mint: #A9FFE6;
+  --light-blue: #89AADB;
+  
+  /* Typography Base */
+  --h1-size: 2.5em; /* Base H1 scale */
+}
+
+.reveal {
+  font-family: 'Objective', sans-serif;
+  background-color: var(--licorice);
+  color: var(--white-smoke);
+}
+
+/* Headers */
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  color: var(--tropical-blue);
+  text-transform: none;
+  text-shadow: none;
+  margin: 0 0 20px 0;
+}
+
+.reveal section {
+  text-align: left;
+}
+
+.reveal h1 {
+  font-weight: 900; /* Objective Black */
+  font-size: var(--h1-size);
+  letter-spacing: 0.2em; /* Kerning 200 */
+  line-height: 2; /* Leading 2x font size */
+  text-align: center; /* Generally keep H1 centered for title slides */
+}
+
+.reveal h2 {
+  font-weight: 100; /* Objective Thin */
+  font-size: calc(var(--h1-size) * 2); /* 2x size of H1 */
+  letter-spacing: 0.2em; /* Kerning 200 */
+  line-height: 2; /* Leading 2x font size */
+}
+
+.reveal h3 {
+  font-weight: 100; /* Objective Thin */
+  font-size: var(--h1-size); /* Equal to H1 size */
+  line-height: 2; /* Leading 2x font size */
+}
+
+.reveal p {
+  font-family: 'Objective', sans-serif;
+  font-weight: 100; /* Objective Thin */
+  font-size: calc(var(--h1-size) * 0.75); /* 0.75x size of H1 */
+  letter-spacing: 0.1em; /* Kerning 100 */
+  line-height: 2; /* Leading 2x font size */
+}
+
+/* Bullet Points & Lists */
+.reveal ul, 
+.reveal ol {
+  font-family: 'Objective', sans-serif;
+  font-weight: 100;
+  font-size: calc(var(--h1-size) * 0.75);
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: var(--white-smoke);
+  margin-left: 1.5em;
+}
+
+.reveal ul {
+  list-style-type: none;
+}
+
+.reveal ul li::before {
+  content: '';
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  background-color: var(--cerise);
+  margin-right: 0.8em;
+  margin-bottom: 0.15em;
+  vertical-align: middle;
+}
+
+.reveal ul li,
+.reveal ol li {
+  margin-bottom: 0.5em; /* Add some space between items */
+}
+
+/* Links */
+.reveal a {
+  color: var(--medium-spring-green);
+  transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+  color: var(--dark-tangerine);
+}
+
+/* Code Blocks */
+.reveal pre {
+  background: var(--licorice);
+  border: 1px solid var(--tropical-blue);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/* Logo */
+.reveal-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  z-index: 1000;
+  fill: var(--white-smoke);
+}
+
+/* Fragments */
+.reveal .fragment.blur {
+  filter: blur(5px);
+  transition: all 0.2s ease;
+}
+
+.reveal .fragment.blur.visible {
+  filter: blur(0);
+}
+
+/* Custom Progress Bar */
+.reveal .progress {
+  height: 6px;
+  background: rgba(242, 242, 242, 0.1);
+}
+
+.reveal .progress span {
+  background: linear-gradient(90deg, var(--cerise), var(--dark-tangerine));
+}
+
+/* Color Classes for Markdown use */
+.reveal .bg-licorice { background-color: var(--licorice); color: var(--white-smoke); }
+.reveal .text-cerise { color: var(--cerise); }
+.reveal .text-green { color: var(--medium-spring-green); }
+.reveal .text-tangerine { color: var(--dark-tangerine); }
+.reveal .text-pink { color: var(--light-pink); }
+.reveal .text-yellow { color: var(--light-yellow); }
+.reveal .text-mint { color: var(--light-mint); }
+.reveal .text-blue { color: var(--light-blue); }

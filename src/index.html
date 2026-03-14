@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>AI Assisted Survey</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/reveal.css">
+	<link id="theme" rel="stylesheet" href="./css/theme.css">
+</head>
+
+<body>
+	<img class="reveal-logo" src="./assets/logo.svg" alt="surQuest Logo"><div class="reveal">
+		<div class="slides">
+			<section>
+				<h2 class="r-fit-text">Výzkum asistovaný AI</h2>
+				<p class="r-fit-text">
+					Jak může AI pomoci s tvorbou průzkumu a analýzou dat?
+				</p>
+			</section>
+			<section data-markdown="./content/agenda.md">
+			</section>
+		</div>
+
+		<script src="./js/reveal.js"></script>
+		<script src="./js/plugin/notes.js"></script>
+		<script src="./js/plugin/markdown.js"></script>
+		<script src="./js/plugin/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+			});
+		</script>
+</body>
+
+</html>

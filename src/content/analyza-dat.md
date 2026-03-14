@@ -24,7 +24,7 @@ Proveď následující kroky:
 ```
 
 ---
-## Interaktivní infografika (React)
+## Interaktivní infografika
 
 Statické grafy jsou užitečné, ale interaktivní webová stránka umožní uživateli data "prozkoumávat" a přepínat mezi různými pohledy. Jakmile máte data zanalyzovaná, použijte následující prompt pro vytvoření vizuálního výstupu:
 

@@ -16,7 +16,7 @@ Oficiální rozhraní najdete na adrese: [notebooklm.google.com](https://noteboo
 2. Sloupec s odpověďmi zkopírujte do dokumentu Google (Google Doc) nebo uložte jako PDF/TXT.
 3. V NotebookLM vytvořte nový zápisník (**New Notebook**) a nahrajte tento soubor jako zdroj (**Source**).
 
-Připravená data ke stažení s [notebooklm.google.com](./assets/data/odpovedi.otevrena-otazka.txt)
+Připravená data ke stažení s v souboru [odpovedi.otevrena-otazka.txt](./assets/data/odpovedi.otevrena-otazka.txt)
 
 --- 
 

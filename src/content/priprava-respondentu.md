@@ -13,7 +13,7 @@ Akademické gymnázium a Jazyková škola s právem státní jazykové zkoušky,
 
 ## Webové rozhraní (Gemini s Google Search)
 
-Pro tento příklad využijeme oficiální rozhraní: [gemini.google.com](https://gemini.google.com/)
+Pro tento příklad využijeme oficiální rozhraní: <a href="https://gemini.google.com/" target="_blank">gemini.google.com</a>
 
 ### Prompt
 
@@ -36,14 +36,14 @@ Gemini vám vrátí podobnou tabulku:
 
 | Název školy | Jméno ředitele | E-mail | Zdroj |
 | :--- | :--- | :--- | :--- |
-| **Gymnázium J. G. Mendela...** | PhDr. Ludmila Čápová | capova@gjgm.cz | [gjgm.cz](https://www.gjgm.cz) |
-| **Akademické gymnázium...** | PaedDr. Milan Macek, CSc. | macek@akademickegymnazium.cz | [akademickegymnazium.cz](https://www.akademickegymnazium.cz) |
+| **Gymnázium J. G. Mendela...** | PhDr. Ludmila Čápová | capova@gjgm.cz | <a href="https://www.gjgm.cz" target="_blank">gjgm.cz</a> |
+| **Akademické gymnázium...** | PaedDr. Milan Macek, CSc. | macek@akademickegymnazium.cz | <a href="https://www.akademickegymnazium.cz" target="_blank">akademickegymnazium.cz</a> |
 
 ---
 
 ## 💡 **Tip pro hromadné zpracování**
 > 
-> Pokud potřebujete zpracovat [seznam o více položkách](./assets/data/skoly.csv), stačí školy do promptu vložit najednou (například zkopírovat sloupec z Excelu). Gemini projde weby za vás a vy jen zkontrolujete finální data. 
+> Pokud potřebujete zpracovat <a href="./assets/data/skoly.csv" target="_blank">seznam o více položkách</a>, stačí školy do promptu vložit najednou (například zkopírovat sloupec z Excelu). Gemini projde weby za vás a vy jen zkontrolujete finální data. 
 > 
 > Aby se vám data lépe přenášela zpět do Excelu, můžete prompt upravit přidáním věty: **„Výstup vrať ve formátu CSV.
 
@@ -57,9 +57,9 @@ Data vrať ve formátu CSV-
 
 ## Automatizace pomocí kódu (Python)
 
-Pro rozsáhlejší seznamy je ideální využít skript. Pro tento příklad použijeme [Google Colab](https://colab.research.google.com/). 
+Pro rozsáhlejší seznamy je ideální využít skript. Pro tento příklad použijeme <a href="https://colab.research.google.com/" target="_blank">Google Colab</a>. 
 
-Zdrojem dat je [seznam o více položkách](./assets/data/skoly.csv). API klíč pro přístup k modelům lze zdarma získat přes [Google AI Studio](https://aistudio.google.com/).
+Zdrojem dat je <a href="./assets/data/skoly.csv" target="_blank">seznam o více položkách</a>. API klíč pro přístup k modelům lze zdarma získat přes <a href="https://aistudio.google.com/" target="_blank">Google AI Studio</a>.
 
 ### Python skript
 

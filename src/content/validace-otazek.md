@@ -22,7 +22,7 @@ Vytvořit dotazník, který respondenty neotráví a vám přinese použitelná 
 
 ## Kontrola otázek pomocí AI
 
-Pro tento příklad využijeme oficiální rozhraní: [gemini.google.com](https://gemini.google.com/)
+Pro tento příklad využijeme oficiální rozhraní: <a href="https://gemini.google.com/" target="_blank">gemini.google.com</a>
 
 ```text
 Jsi expert na tvorbu dotazníků a uživatelský průzkum. Tvým úkolem je zkontrolovat níže uvedené otázky podle těchto 5 pravidel:

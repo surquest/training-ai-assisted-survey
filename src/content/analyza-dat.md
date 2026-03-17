@@ -10,7 +10,7 @@ Máte-li k dispozici výsledky dotazníku v podobě datové tabulky Gemini doká
 
 ## Datová analýza (Python)
 
-Zdrojová data jsou dostupná v CSV souboru [odpovedi.csv](./assets/data/odpovedi.csv). V této fázi necháte AI, aby se "podívala" dovnitř souboru, spočítala klíčové metriky a identifikovala trendy.
+Zdrojová data jsou dostupná v CSV souboru <a href="./assets/data/odpovedi.csv" target="_blank">odpovedi.csv</a>. V této fázi necháte AI, aby se "podívala" dovnitř souboru, spočítala klíčové metriky a identifikovala trendy.
 
 ### Prompt
 

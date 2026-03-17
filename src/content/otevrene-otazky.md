@@ -8,7 +8,7 @@ Máte-li stovky odpovědí na otevřené otázky jako je: **Uveďte, co považuj
 
 ## Webové rozhraní (NotebookLM)
 
-Oficiální rozhraní najdete na adrese: [notebooklm.google.com](https://notebooklm.google.com/)
+Oficiální rozhraní najdete na adrese: <a href="https://notebooklm.google.com/" target="_blank">notebooklm.google.com</a>
 
 ### Příprava dat
 
@@ -16,7 +16,7 @@ Oficiální rozhraní najdete na adrese: [notebooklm.google.com](https://noteboo
 2. Sloupec s odpověďmi zkopírujte do dokumentu Google (Google Doc) nebo uložte jako PDF/TXT.
 3. V NotebookLM vytvořte nový zápisník (**New Notebook**) a nahrajte tento soubor jako zdroj (**Source**).
 
-Připravená data ke stažení s v souboru [odpovedi.otevrena-otazka.txt](./assets/data/odpovedi.otevrena-otazka.txt)
+Připravená data ke stažení s v souboru <a href="./assets/data/odpovedi.otevrena-otazka.txt" target="_blank">odpovedi.otevrena-otazka.txt</a>
 
 --- 
 

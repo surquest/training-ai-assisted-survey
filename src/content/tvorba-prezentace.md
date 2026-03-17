@@ -12,11 +12,11 @@ Místo zaplnění prázdného bílého papíru nechte Gemini navrhnout:
 
 ## Webové rozhraní (Gemini)
 
-Pro návrh obsahu využijeme standardní rozhraní [gemini.google.com](https://gemini.google.com/). Gemini vám nepomůže jen s textem, ale dokáže připravit i instrukce pro grafika nebo kód pro automatické vygenerování slidů v PowerPointu.
+Pro návrh obsahu využijeme standardní rozhraní <a href="https://gemini.google.com/" target="_blank">gemini.google.com</a>. Gemini vám nepomůže jen s textem, ale dokáže připravit i instrukce pro grafika nebo kód pro automatické vygenerování slidů v PowerPointu.
 
 ### Prompt pro definici vizuálu a obsahu
 
-Dokument shrnující informace: [Shrnutí](./assets/data/shrnuti.otevrena-otazka.md).
+Dokument shrnující informace: <a href="./assets/data/shrnuti.otevrena-otazka.md" target="_blank">Shrnutí</a>.
 
 ```text
 Jsi expert na vizuální komunikaci a tvorbu prezentací. Tvým úkolem je navrhnout strukturu prezentace na téma: **Největší problémy vzdělávání žáku s nedostatečnou znalostí češtiny**.
